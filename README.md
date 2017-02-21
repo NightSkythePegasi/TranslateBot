@@ -13,7 +13,7 @@ Current Features:
 
 4. Supports a single channel where all messages are automatically translated
 
-5. Supports translating any channel with +tb:lang code:message (ie. +tb:es:hello would return hola)
+5. Supports translating any channel with +tb:lang code:message (ie. ```+tb:es:hello``` would return hola)
 
 Future Plans: Support different backends, especially self-hosted options like
 Apapche Joshua - https://cwiki.apache.org/confluence/display/JOSHUA/Apache+Joshua+(Incubating)+Home
