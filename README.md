@@ -7,9 +7,9 @@ Current Features:
 
 1. Uses Yandex.Translate as the backend. Free API key for up to 10,000,000 chars/month
 
-2. Hard coded to translate between Russian, English and Spanish, they can be changed, others added, or removed easily, but not on the fly (yet)
+2. Hard coded to translate into Russian, English and Spanish, they can be changed, others added, or removed easily, but not on the fly (yet). Input language is autodetected, so anything yandex supports should work as input.
 
-3. You can use +speak to tell it not to translate into your language ie. +speak en will only translate into es and ru
+3. You can use +speak to tell it not to translate into your language ie. +speak en will only translate into es and ru (es and ru will translate into en)
 
 4. Supports a single channel where all messages are automatically translated
 
