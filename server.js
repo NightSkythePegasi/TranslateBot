@@ -4,7 +4,7 @@
 // it will automatically translate all messages in tbauto channel
 // It can translate in all channels with +tb:(language code to translate into):(message)(ie. +tb:es:Hello World)
 // This bot was pieced together from example code and function references with my fairly poor coding skillz.
-// Licence is Creative Commons, I'm not responible for anything it does / breaks!
+// Licence is MIT, I'm not responible for anything it does / breaks!
 // NightSkythePegasi
 
 
