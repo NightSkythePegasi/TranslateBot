@@ -1,5 +1,5 @@
 # TranslateBot
-Realtime multilingual translation bot for Discord
+Multilingual translation bot for Discord
 
 Works, but is basically a proof of concept.
 
@@ -7,7 +7,7 @@ Current Features:
 
 1. Uses Yandex.Translate as the backend. Free API key for up to 10,000,000 chars/month
 
-2. hard coded to translate between Russian, English and Spanish, they can be changed others added or removed easily, but not on the fly (yet)
+2. Hard coded to translate between Russian, English and Spanish, they can be changed, others added, or removed easily, but not on the fly (yet)
 
 3. You can use +speak to tell it not to translate into your language ie. +speak en will only translate into es and ru
 
@@ -27,3 +27,7 @@ Still defining a good feature list of ideas, so far:
 3. Support multiple auto translate channels per server.
 
 4. Maybe support multiple isolated channels. for example a post in general-en would be translated and posted in general-es, general-ru, etc
+
+5. Maybe a better name.
+
+6. Better thought out commands
