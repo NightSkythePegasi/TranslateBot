@@ -15,19 +15,30 @@ Current Features:
 
 5. Supports translating any channel with +tb:lang code:message (ie. ```+tb:es:hello``` would return hola)
 
-Future Plans: Support different backends, especially self-hosted options like
-Apapche Joshua - https://cwiki.apache.org/confluence/display/JOSHUA/Apache+Joshua+(Incubating)+Home
+Future Plans: Total Rewrite, Proposed Features:
 
-Still defining a good feature list of ideas, so far:
+1. Single channel translation - translates into multiple languages in channel. Possible language role support. 
 
-1. Auto selecting languages based on what users input with +speak (don't translate into en if only ru and es speakers are active in channel)
+2. Multi channel translation - for example one channel for en, one for es, one for ru.
 
-2. Support other backends: bing, joshua, moses, etc.
+3. Selectable backends - allows local backend(s) as well as online backends. Configurable with admin commands.
 
-3. Support multiple auto translate channels per server.
+4. Channel will time out in x minutes, admin command to configure, any post resets timer or starts translation. A special command to start translation/reset timer without translating to other channels
 
-4. Maybe support multiple isolated channels. for example a post in general-en would be translated and posted in general-es, general-ru, etc
+Proposed Commands:
 
-5. Maybe a better name.
+Probably all commands will use +translatebot then:
 
-6. Better thought out commands
+info - Display bot info - what languages are supported, which are enabled, what backends are assigned to each language pair
+
+ping - enable translation without posting to other channels
+
+del - remove last message by user (may autodetect and del or edit as needed)
+
+admin:rescan - rescan language channels and enable translation
+
+admin:backend:\<LC\>:\<Backend\> - assign language pait to backend
+
+admin:timeout:\<min\> - timeout in minutes 0 to disable
+
+admin:writeconfig - save configuration (optional, may be more trouble than it's worth)
