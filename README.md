@@ -37,8 +37,6 @@ del - remove last message by user (may autodetect and del or edit as needed)
 
 admin:rescan - rescan language channels and enable translation
 
-admin:backend:\<LC\>:\<Backend\> - assign language pait to backend
+admin:backend:\<LC\>:\<Backend\> - assign language pair to backend
 
 admin:timeout:\<min\> - timeout in minutes 0 to disable
-
-admin:writeconfig - save configuration (optional, may be more trouble than it's worth)
